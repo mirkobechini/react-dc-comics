@@ -4,6 +4,25 @@
   box-sizing: border-box;
 }
 
+/* #region Common*/
+body {}
+
+.container {
+  margin: 0 auto;
+  padding: 1rem 0;
+  width: 80%;
+}
+
+/* #endregion Common*/
+
+/* #region Header*/
+.menu {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
 nav {
   a {
     text-decoration: none;
@@ -12,15 +31,25 @@ nav {
     text-transform: uppercase;
     color: black;
   }
-  .logo{
-    width: 50px;
-  }
+
 }
 
-header {
-  margin: 1rem auto;
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: space-evenly;
+.logo {
+  width: 75px;
 }
+
+/* #endregion Header*/
+
+
+/* #region Main*/
+main {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+/* #endregion Main*/
+
+/* #region Footer*/
+footer {}
+
+/* #endregion Footer*/
