@@ -34,6 +34,12 @@
   padding: 1rem;
 }
 
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 /* #endregion Common*/
 
 /* #region Header*/
@@ -43,11 +49,12 @@
 }
 
 header {
-  .col-logo{
+  .col-logo {
     width: calc(100% / 11);
     padding-bottom: 0.5rem;
   }
-  .col-nav{
+
+  .col-nav {
     width: calc(100% - 100% / 11);
     display: flex;
     justify-content: space-between;
@@ -56,7 +63,7 @@ header {
     text-align: center;
   }
 
-  .nav{
+  .nav {
     justify-content: space-between;
   }
 }
@@ -99,9 +106,16 @@ footer {
 
   #buyRow {
     background-color: var(--rdc-primary);
+    padding: 2rem;
 
     img {
-      height: 70px;
+      height: 40px;
+    }
+
+    .cardsSpan {
+      text-transform: uppercase;
+      color: white;
+      font-size: 14px;
     }
   }
 
@@ -110,9 +124,41 @@ footer {
     min-height: 200px;
   }
 
-  #signUp {
+  #signUpRow {
     background-color: var(--rdc-secondary);
-    min-height: 200px;
+    padding: 1rem;
+    .row {
+      justify-content: space-between;
+      align-items: center;
+    }
+    .col{
+        width: calc(100% / 2);
+      }
+
+    #signUp {
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+      border: 3px solid;
+      padding: 1rem;
+      border-color: var(--rdc-primary);
+    }
+
+    #followUs {
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: bold;
+      color: var(--rdc-primary);
+    }
+
+
+    .follow{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
   }
 
 }
