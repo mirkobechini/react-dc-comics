@@ -1,24 +1,9 @@
-
-import headerLogo from '/img/dc-logo.png'
+import AppHeader from './components/AppHeader'
 
 function App() {
   return (
     <>
-      <header>
-        <img src={headerLogo} className='logo' alt="logo DC" />
-        <nav>
-            <a href="">characters</a>
-            <a href="">comics</a>
-            <a href="">movies</a>
-            <a href="">tv</a>
-            <a href="">games</a>
-            <a href="">collectibles</a>
-            <a href="">videos</a>
-            <a href="">fans</a>
-            <a href="">news</a>
-            <a href="">shop</a>
-        </nav>
-      </header>
+      <AppHeader/>
       <main></main>
       <footer></footer>
     </>
