@@ -19,8 +19,18 @@
 
 .container {
   margin: 0 auto;
-  padding: 0;
-  width: 80%;
+  width: 780%;
+  max-width: 1176px;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1rem;
+}
+
+.col{
+  width: calc(100% / 5);
+  padding: 1rem;
 }
 
 .flex {
@@ -77,6 +87,25 @@ main {
 /* #endregion Main*/
 
 /* #region Footer*/
-footer {}
+footer {
+
+  #buyRow{
+    background-color: var(--rdc-primary);
+    img{
+      height: 70px;
+    }
+  }
+
+  #bottomJumbo{
+    background-image: url(/img/footer-bg.jpg);
+    min-height: 200px;
+  }
+
+  #signUp{
+    background-color: var(--rdc-secondary);
+    min-height: 200px;
+  }
+
+}
 
 /* #endregion Footer*/
