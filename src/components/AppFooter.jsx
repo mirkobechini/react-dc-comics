@@ -1,11 +1,4 @@
 
-//blue-band
-import digitalComics from '/img/buy-comics-digital-comics.png'
-import merchandiseComics from '/img/buy-comics-merchandise.png'
-import shopLocatorComics from '/img/buy-comics-shop-locator.png'
-import subscriptionComics from '/img/buy-comics-subscriptions.png'
-import powerVisaComics from '/img/buy-dc-power-visa.svg'
-
 //banner
 import dcLogoBackground from '/img/dc-logo-bg.png'
 
@@ -19,39 +12,6 @@ import youtubeLogo from '/img/footer-youtube.png'
 export default function AppFooter() {
     return (
         <footer>
-            <div id="buyRow" className="container">
-                <div className="col flex">
-                    <img src={digitalComics} alt="buyDigitalComics" />
-                    <span className='cardsSpan'>
-                        digital comics
-                    </span>
-                </div>
-                <div className="col flex">
-                    <img src={merchandiseComics} alt="merchandise" />
-                    <span className='cardsSpan'>
-                        dc merchandise
-                    </span>
-                </div>
-                <div className="col flex">
-                    <img src={subscriptionComics} alt="subscriptions" />
-                    <span className='cardsSpan'>
-                        subscription
-                    </span>
-                </div>
-                <div className="col flex">
-                    <img src={shopLocatorComics} alt="shopLocator" />
-                    <span className='cardsSpan'>
-                        comic shop locator
-                    </span>
-                </div>
-                <div className="col flex">
-                    <img src={powerVisaComics} alt="powerVisa" />
-                    <span className='cardsSpan'>
-                        dc power visa
-                    </span>
-                </div>
-
-            </div>
             <div className="container flex-container banner">
                 <div className="leftCol">
                     <section className="linkCard">
@@ -60,7 +20,7 @@ export default function AppFooter() {
                             <li>characters</li>
                             <li>comics</li>
                             <li>movies</li>
-                            <li>tv</li>
+                            <li>TV</li>
                             <li>games</li>
                             <li>videos</li>
                             <li>news</li>
@@ -69,22 +29,22 @@ export default function AppFooter() {
                     <section className="linkCard">
                         <h2>shop</h2>
                         <ul>
-                            <li>shop dc</li>
-                            <li>shop dc collectibles</li>
+                            <li>shop DC</li>
+                            <li>shop DC collectibles</li>
                         </ul>
                     </section>
                 </div>
                 <section className="linkCard">
                     <h2>dc</h2>
                     <ul>
-                        <li>term of use</li>
+                        <li>terms of use</li>
                         <li>privacy policy (new)</li>
                         <li>ad choices</li>
                         <li>advertising</li>
                         <li>jobs</li>
                         <li>subscriptions</li>
                         <li>talent workshop</li>
-                        <li>cpsc certificates</li>
+                        <li>CPSC certificates</li>
                         <li>ratings</li>
                         <li>shop help</li>
                         <li>Contact us</li>
@@ -93,11 +53,11 @@ export default function AppFooter() {
                 <section className="linkCard">
                     <h2>sites</h2>
                     <ul>
-                        <li>dc</li>
-                        <li>mad magazine</li>
-                        <li>dc kids</li>
-                        <li>dc universe</li>
-                        <li>dc power visa</li>
+                        <li>DC</li>
+                        <li>MAD magazine</li>
+                        <li>DC kids</li>
+                        <li>DC universe</li>
+                        <li>DC power visa</li>
                     </ul>
                 </section>
                 <img src={dcLogoBackground} alt="logoBackground" id="logoBg" />

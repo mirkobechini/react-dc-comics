@@ -27,18 +27,7 @@ html, body{
   margin: 0 auto;
   padding: 0 14.5% 0 17.5%;
 }
-/* levare*/
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 -1rem;
-}
 
-.col {
-  width: calc(100% / 5);
-  padding: 1rem;
-}
-/*levare*/
 .flex-container {
   display: flex;
 }
@@ -89,29 +78,43 @@ header .flex-container {
 main {
   background-color: var(--rdc-bg);
   color: white;
-  padding: 3.1rem 0;
+
+  & #containerMain{
+     padding-top: 3.1rem;
+     padding-bottom: 3.1rem;
+  }
 }
 
+
+/* #region BandIcon*/
+
+.icon-band {
+    background-color: var(--rdc-primary);
+    color: white;
+    text-transform: uppercase;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    & .card {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        & img {
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+            display: block;
+        }
+    }
+}
+
+
+/* #endregion BandIcon*/
 /* #endregion Main*/
 
 /* #region Footer*/
-footer {
-  #buyRow {
-    background-color: var(--rdc-primary);
-    padding: 2rem;
-
-    img {
-      height: 40px;
-    }
-
-    .cardsSpan {
-      text-transform: uppercase;
-      color: white;
-      font-size: 14px;
-    }
-  }
-
-}
 
 /*#region Banner*/
 .banner{
@@ -158,6 +161,7 @@ footer {
         color: #7a7d79;
         list-style: none;
         text-transform: capitalize;
+        font-size: 13px;
     }
 
     & li{
@@ -193,6 +197,7 @@ footer {
         color: var(--rdc-primary);
         font-weight: 700;
         text-transform: uppercase;
+        font-size: 21px;
 
     }
 }
