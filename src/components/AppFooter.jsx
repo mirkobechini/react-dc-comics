@@ -1,13 +1,13 @@
 
 //banner
-import dcLogoBackground from '/img/dc-logo-bg.png'
+import dcLogoBackground from './../assets/img/dc-logo-bg.png'
 
 //bottom-band
-import facebookLogo from '/img/footer-facebook.png'
-import periscopeLogo from '/img/footer-periscope.png'
-import pinterestLogo from '/img/footer-pinterest.png'
-import twitterLogo from '/img/footer-twitter.png'
-import youtubeLogo from '/img/footer-youtube.png'
+import facebookLogo from './../assets/img/footer-facebook.png'
+import periscopeLogo from './../assets/img/footer-periscope.png'
+import pinterestLogo from './../assets/img/footer-pinterest.png'
+import twitterLogo from './../assets/img/footer-twitter.png'
+import youtubeLogo from './../assets/img/footer-youtube.png'
 
 export default function AppFooter() {
     return (

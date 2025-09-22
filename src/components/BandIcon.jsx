@@ -1,8 +1,8 @@
-import digitalComics from '/img/buy-comics-digital-comics.png'
-import merchandiseComics from '/img/buy-comics-merchandise.png'
-import shopLocatorComics from '/img/buy-comics-shop-locator.png'
-import subscriptionComics from '/img/buy-comics-subscriptions.png'
-import powerVisaComics from '/img/buy-dc-power-visa.svg'
+import digitalComics from './../assets/img/buy-comics-digital-comics.png'
+import merchandiseComics from './../assets//img/buy-comics-merchandise.png'
+import shopLocatorComics from './../assets//img/buy-comics-shop-locator.png'
+import subscriptionComics from './../assets//img/buy-comics-subscriptions.png'
+import powerVisaComics from './../assets//img/buy-dc-power-visa.svg'
 
 export default function BandIcon(){
     return(

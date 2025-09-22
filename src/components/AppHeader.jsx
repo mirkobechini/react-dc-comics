@@ -1,5 +1,5 @@
 
-import headerLogo from '/img/dc-logo.png'
+import headerLogo from './../assets/img/dc-logo.png'
 
 export default function AppHeader() {
     return (
