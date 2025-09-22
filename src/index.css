@@ -14,8 +14,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+}
+
+html, body{
   color: var(--rdc-secondary);
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -61,6 +64,7 @@ header .flex-container {
 
   & a {
     padding: 7% 0;
+    color: inherit;
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
