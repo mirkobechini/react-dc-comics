@@ -2,7 +2,7 @@ export default function AppMain(){
     return(
         <main>
             <div className="container">
-                <h1>{"--> Content goes here <--"}</h1>
+                <h2>{"--> Content goes here <--"}</h2>
             </div>
         </main>
     )
