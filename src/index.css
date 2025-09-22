@@ -15,12 +15,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+  color: var(--rdc-secondary);
 }
 
 .container {
+  width: 100%;
   margin: 0 auto;
-  width: 780%;
-  max-width: 1176px;
+  padding: 0 10%;
 }
 
 .row {
@@ -34,10 +35,8 @@
   padding: 1rem;
 }
 
-.flex {
+.flex-container {
   display: flex;
-  align-items: center;
-  gap: 1rem;
 }
 
 /* #endregion Common*/
@@ -45,46 +44,35 @@
 /* #region Header*/
 
 .logo {
-  width: 75px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding: 1rem 0;
 }
 
-header {
-  .col-logo {
-    width: calc(100% / 11);
-    padding-bottom: 0.5rem;
-  }
-
-  .col-nav {
-    width: calc(100% - 100% / 11);
-    display: flex;
-    justify-content: space-between;
-    padding-top: 2rem;
-    padding-left: 15rem;
-    text-align: center;
-  }
-
-  .nav {
-    justify-content: space-between;
-  }
+header .flex-container {
+  justify-content: space-between;
 }
 
 /*#region Navigation menu*/
-nav {
-  a {
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: var(--rdc-secondary);
-    border-bottom: 3px solid transparent;
-    padding-bottom: 5px;
-    display: inline-block;
-  }
+.nav {
+  gap: 1rem;
+  align-items: center;
 
+  & a {
+    padding: 7% 0;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    bottom: -1px;
+    border-bottom: thick solid transparent;
+  }
 }
 
-.selected {
+.nav a.selected {
+  border-bottom: thick solid var(--rdc-primary);
   color: var(--rdc-primary);
-  border-bottom-color: var(--rdc-primary);
 }
 
 /*#endregion Navigation menu*/
@@ -103,6 +91,10 @@ main {
 
 /* #region Footer*/
 footer {
+
+  .container {
+    background-color: var(--rdc-primary);
+  }
 
   #buyRow {
     background-color: var(--rdc-primary);
@@ -127,13 +119,15 @@ footer {
   #signUpRow {
     background-color: var(--rdc-secondary);
     padding: 1rem;
+
     .row {
       justify-content: space-between;
       align-items: center;
     }
-    .col{
-        width: calc(100% / 2);
-      }
+
+    .col {
+      width: calc(100% / 2);
+    }
 
     #signUp {
       text-transform: uppercase;
@@ -153,7 +147,7 @@ footer {
     }
 
 
-    .follow{
+    .follow {
       display: flex;
       justify-content: space-between;
       align-items: center;
