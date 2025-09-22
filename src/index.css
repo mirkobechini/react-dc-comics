@@ -47,23 +47,21 @@ html, body{
 /* #region Header*/
 
 .logo {
-  max-width: 100%;
-  height: auto;
+  height: 5rem;
   display: block;
-  padding: 1rem 0;
 }
 
 header .flex-container {
   justify-content: space-between;
+  align-items: center;
 }
 
 /*#region Navigation menu*/
 .nav {
-  gap: 1rem;
+  gap: 2rem;
   align-items: center;
-
   & a {
-    padding: 7% 0;
+    padding: 5% 0;
     color: inherit;
     font-weight: 700;
     text-decoration: none;
@@ -108,45 +106,6 @@ footer {
       color: white;
       font-size: 14px;
     }
-  }
-
-  #signUpRow {
-    background-color: var(--rdc-secondary);
-    padding: 1rem;
-
-    .row {
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .col {
-      width: calc(100% / 2);
-    }
-
-    #signUp {
-      text-transform: uppercase;
-      text-decoration: none;
-      font-weight: bold;
-      color: white;
-      border: 3px solid;
-      padding: 1rem;
-      border-color: var(--rdc-primary);
-    }
-
-    #followUs {
-      text-transform: uppercase;
-      text-decoration: none;
-      font-weight: bold;
-      color: var(--rdc-primary);
-    }
-
-
-    .follow {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
   }
 
 }
