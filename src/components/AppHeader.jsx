@@ -4,11 +4,11 @@ import headerLogo from '/img/dc-logo.png'
 export default function AppHeader() {
     return (
         <header>
-            <div class="container flex-container">
+            <div className ="container flex-container">
                 <img src={headerLogo} className='logo' alt="logo DC" />
-                <nav class="nav flex-container">
+                <nav className ="nav flex-container">
                     <a href="">characters</a>
-                    <a href="" class='selected'>comics</a>
+                    <a href="" className ='selected'>comics</a>
                     <a href="">movies</a>
                     <a href="">tv</a>
                     <a href="">games</a>

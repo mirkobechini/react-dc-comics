@@ -49,9 +49,9 @@ export default function AppFooter() {
                 </div>
 
             </div>
-            <div class="container flex-container banner">
-                <div class="leftCol">
-                    <section class="linkCard">
+            <div className="container flex-container banner">
+                <div className="leftCol">
+                    <section className="linkCard">
                         <h2>dc comics</h2>
                         <ul>
                             <li>characters</li>
@@ -63,7 +63,7 @@ export default function AppFooter() {
                             <li>news</li>
                         </ul>
                     </section>
-                    <section class="linkCard">
+                    <section className="linkCard">
                         <h2>shop</h2>
                         <ul>
                             <li>shop dc</li>
@@ -71,7 +71,7 @@ export default function AppFooter() {
                         </ul>
                     </section>
                 </div>
-                <section class="linkCard">
+                <section className="linkCard">
                     <h2>dc</h2>
                     <ul>
                         <li>term of use</li>
@@ -87,7 +87,7 @@ export default function AppFooter() {
                         <li>Contact us</li>
                     </ul>
                 </section>
-                <section class="linkCard">
+                <section className="linkCard">
                     <h2>sites</h2>
                     <ul>
                         <li>dc</li>
