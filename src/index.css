@@ -206,4 +206,41 @@ footer {
 /*#endregion Banner*/
 
 
+/* #region SignUp*/
+.bottom-band{
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--rdc-secondary);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#signUpButton{
+    border: solid var(--rdc-primary);
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0.75rem;
+}
+.follow{
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    & span{
+        color: var(--rdc-primary);
+        font-weight: 700;
+        text-transform: uppercase;
+
+    }
+}
+.socialLinks{
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+/* #endregion SignUp*/
+
+
+
 /* #endregion Footer*/

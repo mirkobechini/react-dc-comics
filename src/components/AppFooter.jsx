@@ -1,12 +1,15 @@
 
+//blue-band
 import digitalComics from '/img/buy-comics-digital-comics.png'
 import merchandiseComics from '/img/buy-comics-merchandise.png'
 import shopLocatorComics from '/img/buy-comics-shop-locator.png'
 import subscriptionComics from '/img/buy-comics-subscriptions.png'
 import powerVisaComics from '/img/buy-dc-power-visa.svg'
+
+//banner
 import dcLogoBackground from '/img/dc-logo-bg.png'
 
-
+//bottom-band
 import facebookLogo from '/img/footer-facebook.png'
 import periscopeLogo from '/img/footer-periscope.png'
 import pinterestLogo from '/img/footer-pinterest.png'
@@ -99,17 +102,17 @@ export default function AppFooter() {
                 </section>
                 <img src={dcLogoBackground} alt="logoBackground" id="logoBg" />
             </div>
-            <div id="signUpRow" className="container">
-                <div className="col">
-                    <a href="" id="signUp">sign-up now!</a>
-                </div>
-                <div className="col follow">
-                    <a href="" id='followUs'>follow us</a>
-                    <img src={facebookLogo} alt="facebook" />
-                    <img src={twitterLogo} alt="twitter" />
-                    <img src={youtubeLogo} alt="youtube" />
-                    <img src={pinterestLogo} alt="pinterest" />
-                    <img src={periscopeLogo} alt="periscope" />
+            <div class="container flex-container bottom-band">
+                <a id="signUpButton" href="">sign-up now!</a>
+                <div class="follow flex-container">
+                    <span>follow us</span>
+                    <div class="socialLinks flex-container">
+                        <img src={facebookLogo} alt="facebook" />
+                        <img src={twitterLogo} alt="twitter" />
+                        <img src={youtubeLogo} alt="youtube" />
+                        <img src={pinterestLogo} alt="pinterest" />
+                        <img src={periscopeLogo} alt="periscope" />
+                    </div>
                 </div>
             </div>
         </footer>
