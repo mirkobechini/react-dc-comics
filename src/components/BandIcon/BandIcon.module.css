@@ -1,0 +1,17 @@
+.icon_band {
+    /*container*/
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 14.5% 0 17.5%;
+    /*container*/
+
+    background-color: var(--rdc-primary);
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 14px;
+
+}

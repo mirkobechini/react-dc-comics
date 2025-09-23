@@ -1,0 +1,12 @@
+.card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    & img {
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+        display: block;
+    }
+}

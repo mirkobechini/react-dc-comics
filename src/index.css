@@ -81,11 +81,15 @@ main {
   color: white;
   font-size: 18px;
 
-  & #containerMain {
+  & #mainContent {
     padding-top: 3rem;
     padding-bottom: 3rem;
     position: relative;
   }
+}
+
+.grid {
+  justify-content: space-around;
 }
 
 .jumbotron {
@@ -102,15 +106,16 @@ main {
 
 }
 
-.label{
+.label {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 28px;
   background-color: var(--rdc-primary);
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 1.8rem;
   position: absolute;
   top: -25px;
-  z-index: 99;
+  left: 320px;
+  z-index: 2;
 }
 
 
