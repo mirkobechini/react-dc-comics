@@ -77,15 +77,15 @@ header .flex-container {
 
 /* #region Main*/
 main {
-  background-color: var(--rdc-bg);
-  color: white;
   font-size: 18px;
+  color: white;
+}
 
-  & #mainContent {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    position: relative;
-  }
+#mainContent {
+  background-color: var(--rdc-bg);
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  position: relative;
 }
 
 .grid {
@@ -106,7 +106,7 @@ main {
 
 }
 
-.label {
+.floatingLabel {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 28px;
@@ -114,38 +114,31 @@ main {
   padding: 0.5rem 1.8rem;
   position: absolute;
   top: -25px;
-  left: 320px;
-  z-index: 2;
+  left: 310px;
 }
 
+.comicsShow{
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
 
-/* #region BandIcon*/
+.grid{
+  gap: 1.8rem;
+}
 
-.icon-band {
-  background-color: var(--rdc-primary);
-  color: white;
+.loadMoreLabel{
   text-transform: uppercase;
-  justify-content: space-between;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
   font-size: 14px;
-
-  & .card {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-
-    & img {
-      width: 60px;
-      height: 60px;
-      object-fit: contain;
-      display: block;
-    }
-  }
+  background-color: var(--rdc-primary);
+  padding: 0.5rem 3.5rem;
 }
 
 
-/* #endregion BandIcon*/
+
 /* #endregion Main*/
 
 /* #region Footer*/
