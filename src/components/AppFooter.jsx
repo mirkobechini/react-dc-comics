@@ -62,11 +62,11 @@ export default function AppFooter() {
                 </section>
                 <img src={dcLogoBackground} alt="logoBackground" id="logoBg" />
             </div>
-            <div class="container flex-container bottom-band">
+            <div className="container flex-container bottom-band">
                 <a id="signUpButton" href="">sign-up now!</a>
-                <div class="follow flex-container">
+                <div className="follow flex-container">
                     <span>follow us</span>
-                    <div class="socialLinks flex-container">
+                    <div className="socialLinks flex-container">
                         <img src={facebookLogo} alt="facebook" />
                         <img src={twitterLogo} alt="twitter" />
                         <img src={youtubeLogo} alt="youtube" />
