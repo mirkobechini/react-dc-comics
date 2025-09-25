@@ -3,9 +3,7 @@ import style from "./BandIconCard.module.css"
 
 
 
-export default function BandIconCard(props) {
-    console.log(props);
-    
+export default function BandIconCard(props) {   
     return (
         <div className={style.card}>
             <img src = {props.image} alt = "" />
