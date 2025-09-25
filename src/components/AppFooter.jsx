@@ -16,7 +16,7 @@ import banner_list from '../data/footer_banner_menu';
 export default function AppFooter() {
     return (
         <footer>
-            <div className="container flex-container banner">
+            <div className="container flex-container image-back banner">
                 <div className="leftCol">
 
                     {banner_list.slice(0, 2).map(menu =>

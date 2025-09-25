@@ -34,6 +34,17 @@ body {
   align-items: center;
 }
 
+.image-back {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  gap: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
 /* #endregion Common*/
 
 /* #region Header*/
@@ -86,15 +97,7 @@ main {
 
 .jumbotron {
   background-image: url(./assets/img/jumbotron.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  overflow: hidden;
-  display: flex;
   min-height: 400px;
-  gap: 2rem;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
 
 }
 
@@ -140,14 +143,6 @@ main {
 /*#region Banner*/
 .banner {
   background-image: url(./assets/img/footer-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  gap: 2rem;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
 
 }
 
@@ -225,14 +220,14 @@ main {
 .follow {
   justify-content: space-between;
   gap: 2rem;
+}
 
-  & span {
-    color: var(--rdc-primary);
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 21px;
+.follow span {
+  color: var(--rdc-primary);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 21px;
 
-  }
 }
 
 .socialLinks {

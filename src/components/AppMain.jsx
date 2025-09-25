@@ -5,7 +5,7 @@ import CardComics from './CardComics/CardComics'
 export default function AppMain() {
     return (
         <main>
-            <div className="jumbotron">
+            <div className="image-back jumbotron">
             </div>
             <div id='mainContent' className="container">
                 <span className="floatingLabel">current series</span>
