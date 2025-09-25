@@ -31,10 +31,9 @@ body {
 
 .flex-container {
   display: flex;
-  align-items: center;
 }
 
-.image-back {
+.image-back{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -56,21 +55,26 @@ body {
 
 header .flex-container {
   justify-content: space-between;
+  align-items: center;
   gap: 1.6rem;
 }
 
 /*#region Navigation menu*/
-.nav a {
-  padding: 7% 0%;
-  color: inherit;
-  font-weight: 700;
-  font-size: 14px;
-  text-decoration: none;
-  text-transform: uppercase;
-  position: relative;
-  bottom: -1px;
-  border-bottom: thick solid transparent;
+.nav {
+  align-items: center;
 }
+
+.nav a{
+    padding: 7% 0%;
+    color: inherit;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    bottom: -1px;
+    border-bottom: thick solid transparent;
+  }
 
 .nav a.active {
   border-bottom: thick solid var(--rdc-primary);
@@ -97,6 +101,7 @@ main {
 
 .jumbotron {
   background-image: url(./assets/img/jumbotron.jpg);
+
   min-height: 400px;
 
 }
@@ -114,14 +119,13 @@ main {
 
 .comicsShow {
   flex-direction: column;
-
+  align-items: center;
   gap: 3rem;
 }
 
 .grid {
   gap: 1.8rem;
   justify-content: space-around;
-
 }
 
 .loadMoreLabel {
@@ -201,7 +205,7 @@ main {
 
 /* #region SignUp*/
 .bottom-band {
-
+  align-items: center;
   justify-content: space-between;
   background-color: var(--rdc-secondary);
   padding-top: 1.8rem;
@@ -218,8 +222,11 @@ main {
 }
 
 .follow {
+  align-items: center;
   justify-content: space-between;
   gap: 2rem;
+
+
 }
 
 .follow span {
@@ -232,6 +239,7 @@ main {
 
 .socialLinks {
   justify-content: space-between;
+  align-items: center;
   gap: 1rem;
 }
 
