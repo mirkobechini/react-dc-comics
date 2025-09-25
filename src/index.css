@@ -198,6 +198,10 @@ main {
   & li {
     padding: 0.05rem 0;
   }
+  & a {
+    color: inherit;
+    text-decoration: none;
+  }
 }
 
 /*#endregion Banner*/
