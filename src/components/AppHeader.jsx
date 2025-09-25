@@ -12,7 +12,7 @@ export default function AppHeader() {
                 <nav className="nav flex-container">
                     {
                         menu.map(item => 
-                        <a href={item.href} className={item.is_active && 'active'} key={item.id}> {item.text}  </a>)
+                        <a href={item.href} className={(item.is_active)?'active': ''} key={item.id}> {item.text}  </a>)
                     }
                 </nav>
             </div>
