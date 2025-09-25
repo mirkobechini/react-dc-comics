@@ -65,7 +65,7 @@ header .flex-container {
   }
 }
 
-.nav a.selected {
+.nav a.active {
   border-bottom: thick solid var(--rdc-primary);
   color: var(--rdc-primary);
 }
