@@ -117,17 +117,17 @@ main {
   left: 310px;
 }
 
-.comicsShow{
+.comicsShow {
   flex-direction: column;
   align-items: center;
   gap: 3rem;
 }
 
-.grid{
+.grid {
   gap: 1.8rem;
 }
 
-.loadMoreLabel{
+.loadMoreLabel {
   text-transform: uppercase;
   text-decoration: none;
   color: inherit;
@@ -181,27 +181,30 @@ main {
 .linkCard {
   color: white;
 
-  & h2 {
-    text-transform: uppercase;
-    padding-top: 0.4rem;
-    padding-bottom: 0.7rem;
-    font-size: 21px;
-  }
 
-  & ul {
-    color: #7a7d79;
-    list-style: none;
-    text-transform: capitalize;
-    font-size: 14px;
-  }
+}
 
-  & li {
-    padding: 0.05rem 0;
-  }
-  & a {
-    color: inherit;
-    text-decoration: none;
-  }
+.linkCard h2 {
+  text-transform: uppercase;
+  padding-top: 0.4rem;
+  padding-bottom: 0.7rem;
+  font-size: 21px;
+}
+
+.linkCard ul {
+  color: #7a7d79;
+  list-style: none;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+.linkCard li {
+  padding: 0.05rem 0;
+}
+
+.linkCard a {
+  color: inherit;
+  text-decoration: none;
 }
 
 /*#endregion Banner*/
