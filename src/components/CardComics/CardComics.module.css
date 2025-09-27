@@ -2,22 +2,32 @@
     display: flex;
     flex-direction: column;
     padding: 0.5rem 0;
+    width: 185px;
 }
 
 .label {
-    text-transform: uppercase;
+    display: block;
     padding-top: 1rem;
+    text-transform: uppercase;
+
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: break-word;
+
+    max-width: 100%;
+    text-align: center;
 }
 
 
-.sizer{
-    width: 185px;
+.sizer {
+    width: 100%;
     aspect-ratio: 1 / 1;
     overflow: hidden;
 }
 
-.sizer img{
+.sizer img {
     width: 100%;
     height: 100%;
-    transform: translateY(25%) scale(1.5);
+    object-fit: cover;
+    object-position: center top;
 }
