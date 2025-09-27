@@ -1,9 +1,10 @@
 
 import style from "./CardComics.module.css"
 
-export default function CardComics({ thumb, series }) {
+export default function CardComics(props) {
 
-
+    const {series, thumb} = props.comic
+    
     return (
         <div className={style.card}>
             <div className={style.sizer}>
