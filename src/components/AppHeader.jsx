@@ -1,10 +1,7 @@
 
 import headerLogo from './../assets/img/dc-logo.png'
 
-//Menu options
-import menu from '../data/header_nav_menu';
-
-export default function AppHeader() {
+export default function AppHeader({menu}) {
     return (
         <header>
             <div className="container flex-container">

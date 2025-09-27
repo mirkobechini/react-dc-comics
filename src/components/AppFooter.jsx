@@ -10,10 +10,10 @@ import twitterLogo from './../assets/img/footer-twitter.png'
 import youtubeLogo from './../assets/img/footer-youtube.png'
 
 //menu data
-import banner_list from '../data/footer_banner_menu';
 
 
-export default function AppFooter() {
+
+export default function AppFooter({banner_list}) {
     return (
         <footer>
             <div className="container flex-container image-back banner">

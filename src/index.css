@@ -126,6 +126,7 @@ main {
 .grid {
   gap: 1.8rem;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .loadMoreLabel {
